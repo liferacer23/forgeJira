@@ -1,0 +1,11 @@
+modules:
+  jira:issuePanel:
+    - key: checklist-hello-world-panel
+      function: main
+      title: checklist
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/27759904-b1eb-4b79-b590-da6faa363265
